@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  gap: 64px;
+}
+
+h1{
+  font-size: 2rem;
+  margin:0;
+  line-height: 1.1;
+}
+
+h2{
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin:0;
+  line-height: 1.1;
+  opacity: .8;
+}
+
+form{
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label{
+  font-size: 0.8rem;
+}
+
+#rmbtn{
+  margin-left: 1.1rem;
+}
